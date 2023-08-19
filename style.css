@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Signika:wght@500&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Signika:wght@500&family=Staatliches&family=Vollkorn:ital,wght@0,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Signika;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url(https://wallpaper.dog/large/5486501.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    border: #000000 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background: #000000;
+    color: #fff;
+}
+
+#section-a {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+    color: #fff;
+}
+.yt-vid {
+    width: 55%;
+    margin-right: 2%;
+    float: left;
+}
